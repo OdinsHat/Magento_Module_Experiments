@@ -1,3 +1,22 @@
 <config>
+    <modules>
+        <OdinsHat_EmailOnLogin>
+            <version>0.0.1</version>
+        </OdinsHat_EmailOnLogin>
+    </modules>
 
+    <global>
+        <events>
+            <!-- this is the event I'm looking out for (observer) -->
+            <admin_session_user_login_success>
+                <observers>
+                    <odinshat_emailonlogin>
+                        <class>odinshat_emailonlogin/observer</class>
+                        <method>sendEmail</method>
+                        <type>singleton</type>
+                    </odinshat_emailonlogin>
+                </observers>
+            </admin_session_user_login_success>
+        </events>
+    </global>
 </config>
