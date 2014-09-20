@@ -6,6 +6,15 @@
     </modules>
 
     <global>
+        <!--
+            these always seem to come before events
+            @todo: WHY?
+         -->
+        <models>
+            <odinshat_emailonlogin>
+                <class>OdinsHat_EmailOnLogin_Model</class>
+            </odinshat_emailonlogin>
+        </models>
         <events>
             <!-- this is the event I'm looking out for (observer) -->
             <admin_session_user_login_success>
