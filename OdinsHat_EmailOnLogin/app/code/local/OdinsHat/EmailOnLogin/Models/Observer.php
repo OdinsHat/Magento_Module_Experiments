@@ -9,6 +9,6 @@ class OdinsHat_EmailOnLogin_Model_Observer
     {
         $stuff = var_export($observer, true);
         Mage::log($stuff);
-        mail('doug.bromley@gmail.com', 'What Mag Says', $stuff);
+        mail(Mage::getStoreConfig('trans_email/ident_general/email'), 'What Mag Says', $stuff);
     }
 }
