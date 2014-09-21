@@ -1,8 +1,8 @@
 <config>
     <modules>
         <OdinsHat_EmailOnLogin>
-            <active>true</true>
+            <active>true</active>
             <codePool>local</codePool>
-        <OdinsHat_EmailOnLogin>
+        </OdinsHat_EmailOnLogin>
     </modules>
 </config>
