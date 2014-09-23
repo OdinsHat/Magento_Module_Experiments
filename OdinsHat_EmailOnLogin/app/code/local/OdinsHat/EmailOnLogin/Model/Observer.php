@@ -22,6 +22,12 @@ class OdinsHat_EmailOnLogin_Model_Observer
         );
     }
 
+    /**
+     * Event fired when admin user fails to authenticate at login
+     *
+     * @param  Varien_Event_Observer $observer Magento observer object
+     * @return null
+     */
     public function failedLogin(Varien_Event_Observer $observer)
     {
         $message = 'Failed login';
@@ -34,6 +40,14 @@ class OdinsHat_EmailOnLogin_Model_Observer
         );
     }
 
+    /**
+     * Event fired after checking authentication. Simple test method to see
+     * if multiple events can be handled. Works - redundant. Keeping for
+     * reference.
+     *
+     * @param  Varien_Event_Observer $observer Magento observer object
+     * @return null
+     */
     public function afterAuth(Varien_Event_Observer $observer)
     {
         $message = 'After Authentication Check';
