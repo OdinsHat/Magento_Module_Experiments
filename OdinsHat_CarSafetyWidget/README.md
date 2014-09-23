@@ -9,6 +9,8 @@ Some possible uses:
 * Car safety data on displayed product.
 * Car safety rating of least safe car.
 * Car safety data of particular brand and model.
+* Average safety rating of brand being viewed.
+* Average safety of year of manufacture beng viewed.
 
 Granted - all American. But EuroNCAP have promised to release an API
 on their next web refresh and this is for purely Magento educational
