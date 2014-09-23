@@ -13,11 +13,11 @@ class OdinsHat_EmailOnLogin_Model_Observer
      */
     public function sendEmail(Varien_Event_Observer $observer)
     {
-        $stuff = var_export($observer, true);
-        Mage::log($stuff);
+        Mage::log('Successful Login');
+        Mage::log($observer);
         mail(
             Mage::getStoreConfig('trans_email/ident_general/email'),
-            'What Mag Says',
+            'Successful Login',
             $stuff
         );
     }
