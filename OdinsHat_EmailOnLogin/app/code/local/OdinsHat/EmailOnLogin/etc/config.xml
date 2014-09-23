@@ -26,6 +26,24 @@
                     </odinshat_emailonlogin>
                 </observers>
             </admin_session_user_login_success>
+            <admin_user_authenticate_after>
+                <observers>
+                    <odinshat_emailonlogin>
+                        <class>odinshat_emailonlogin/observer</class>
+                        <method>afterAuth</method>
+                        <type>singleton</type>
+                    </odinshat_emailonlogin>
+                </observers>
+            </admin_user_authenticate_after>
+            <admin_session_user_login_failed>
+                <observers>
+                    <odinshat_emailonlogin>
+                        <class>odinshat_emailonlogin/observer</class>
+                        <method>failedLogin</method>
+                        <type>singleton</type>
+                    </odinshat_emailonlogin>
+                </observers>
+            </admin_session_user_login_failed>
         </events>
     </global>
 </config>
