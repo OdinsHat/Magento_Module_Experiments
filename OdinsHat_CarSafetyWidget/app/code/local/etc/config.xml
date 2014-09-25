@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <OdinsHat_CarSafetyRating>
+            <version>0.0.1</version>
+        </OdinsHat_CarSafetyRating>
+    </modules>
+    <global>
+        <helpers>
+            <carsafetyrating>
+                <class>OdinsHat_CarSafetyWidget_Helper</class>
+            </carsafetyrating>
+        </helpers>
+        <blocks>
+             <carsafetyrating>
+                <class>OdinsHat_CarSafetyWidget_Block</class>
+             </carsafetyrating>
+        </blocks>
+    </global>
+</config>

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<widgets>
+    <carsafety_random type="carsafety/randomrating">
+        <name>Random Car Safety Rating</name>
+        <description type="desc">Adds random safety rating</description>
+    </carsafety_random>>
+</widgets>
