@@ -1,20 +1,20 @@
 <?xml version="1.0"?>
 <config>
     <modules>
-        <OdinsHat_CarSafetyRating>
+        <OdinsHat_CarSafety>
             <version>0.0.1</version>
-        </OdinsHat_CarSafetyRating>
+        </OdinsHat_CarSafety>
     </modules>
     <global>
         <helpers>
-            <carsafetyrating>
-                <class>OdinsHat_CarSafetyWidget_Helper</class>
-            </carsafetyrating>
+            <carsafety>
+                <class>OdinsHat_CarSafety_Helper</class>
+            </carsafety>
         </helpers>
         <blocks>
-             <carsafetyrating>
-                <class>OdinsHat_CarSafetyWidget_Block</class>
-             </carsafetyrating>
+             <carsafety>
+                <class>OdinsHat_CarSafety_Block</class>
+             </carsafety>
         </blocks>
     </global>
 </config>

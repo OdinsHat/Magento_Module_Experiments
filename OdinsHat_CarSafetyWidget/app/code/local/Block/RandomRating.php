@@ -5,7 +5,7 @@
  *
  * @return string
  */
-class OdinsHat_CarSafetyWidget_Block_RandomRating
+class OdinsHat_CarSafety_Block_RandomRating
     extends Mage_Core_Block_Abstract
     implements Mage_Widget_Block_Interface
 {
